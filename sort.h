@@ -410,6 +410,19 @@ void QuickSort(vector<Comparable> &a, Comparator lessthan) // different quicksor
 }
 
 
+
+// Buggy code down below
+
+
+
+
+
+
+
+
+
+
+
 template <typename Comparable, typename Comparator>
 void quicksort2( vector<Comparable> & a, int left, int right, Comparator lessthan) // compartor added to similar quicksort helper function
 {
@@ -473,6 +486,20 @@ void QuickSort3(vector<Comparable> &a, Comparator lessthan)
 {
     quicksort3(a, 0, a.size() - 1, lessthan); // uses comparator to get quicksort3.
 }
+
+
+///////////////// Code buggy above. Code not tested below.
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
